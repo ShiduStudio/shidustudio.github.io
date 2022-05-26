@@ -1,30 +1,199 @@
-<!DOCTYPE html>
-<html>
+
+<!DOCTYPE HTML>
+<meta charset="utf-8">
 <head>
-    <meta charset="UTF-8">
-    <title>十度 - 新的世界，你我同在！</title>
-    <link rel="stylesheet" href="template">
-</head>
+<title>ShiDu Studio</title>
+    <link rel="stylesheet" href="style.css" media="screen" type="text/css" />
 <style>
-template {
-	box-sizing:border-box;outline:0}a{color:inherit}body{background-color:#FFFFFF;color:#000;cursor:default;font-family:Helvetica,sans-serif;font-size:16px;margin:0;-webkit-tap-highlight-color:transparent}header{-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);background-color:rgba(255,255,255,.1);box-shadow:0 2px 2px rgba(0,0,0,.2);padding:10px 15px;position:fixed;top:0;-webkit-user-select:none;user-select:none;width:100%}h1{margin:15px 0}main{display:block;margin:57px 15px 15px}.bg-img{background-attachment:fixed;background-image:url(https://assets.retiehe.com/inukshuk-q50.webp);background-position:center;background-repeat:no-repeat;background-size:cover;-webkit-filter:blur(10px);filter:blur(10px);height:100%;left:0;opacity:.5;position:fixed;top:0;transform:scale(1.1);width:100%;z-index:-1;
+body{
+background:url("bg.png") center no-repeat;
+background-size: 100% 100%
 }
-header {
-    border-radius: 25px;
+.btn-default {
+
+display: inline-block;
+
+padding: 6px 12px;
+
+margin-bottom: 0;
+
+font-size: 14px;
+
+font-weight: 400;
+
+line-height: 1.42857143;
+
+text-align: center;
+
+white-space: nowrap;
+
+vertical-align: middle;
+
+-ms-touch-action: manipulation;
+
+touch-action: manipulation;
+
+cursor: pointer;
+
+-webkit-user-select: none;
+
+-moz-user-select: none;
+
+-ms-user-select: none;
+
+user-select: none;
+
+background-image: none;
+
+border: 1px solid transparent;
+
+border-radius: 40px;
+
+color: #333;
+
+background-color: #fff;
+
+border-color: #ccc;
+
+text-shadow: 0 1px 0 #fff;
+
+background-image: -webkit-linear-gradient(top, #fff 0, #e0e0e0 100%);
+
+background-image: -o-linear-gradient(top, #fff 0, #e0e0e0 100%);
+
+background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#e0e0e0));
+
+background-image: linear-gradient(to bottom, #fff 0, #e0e0e0 100%);
+
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe0e0e0', GradientType=0);
+
+filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+
+background-repeat: repeat-x;
+
+border-color: #dbdbdb;
+
+border-color: #ccc;
+
 }
-header a{
-    text-decoration: none;
+
+.btn-default:active,
+
+.open>.dropdown-toggle.btn-default {
+
+background-image: none;
+
 }
-header a:hover{
-    color: #ff6a00;
+
+.btn-default:active,
+
+.open>.dropdown-toggle.btn-default {
+
+color: #333;
+
+background-color: #e6e6e6;
+
+border-color: #adadad;
+
 }
+
+.btn-default:hover {
+
+color: #333;
+
+background-color: #e6e6e6;
+
+border-color: #adadad;
+
+}
+
+.btn.active,
+
+.btn:active {
+
+background-image: none;
+
+outline: 0;
+
+-webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+
+box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+
+}
+
+.btn.focus,
+
+.btn:focus,
+
+.btn:hover {
+
+color: #333;
+
+text-decoration: none;
+
+}
+
+.login-button {
+
+/* 按钮美化 */
+
+width: 300px;
+
+/* 宽度 */
+
+height: 60px;
+
+/* 高度 */
+
+border-width: 0px;
+
+/* 边框宽度 */
+
+border-radius: 40px;
+
+/* 边框半径 */
+
+background: #1E90FF;
+
+/* 背景颜色 */
+
+cursor: pointer;
+
+/* 鼠标移入按钮范围时出现手势 */
+
+outline: none;
+
+/* 不显示轮廓线 */
+
+font-family: Microsoft YaHei;
+
+/* 设置字体 */
+
+color: white;
+
+/* 字体颜色 */
+
+font-size: 17px;
+
+/* 字体大小 */
+
+}
+
+.login-button:hover {
+
+/* 鼠标移入按钮范围时改变颜色 */
+
+background: #559922;
+
+}
+
+
+html{height:100%}
 </style>
-<body>
-    <div>
-        <header align="center">
-            <a href="index.html"><label style="font-size: 20px;">首页</label></a>
-            <a href="download.html"><label style="font-size: 20px;">下载</label></a>
-        </header>
-    </div>
+</head>
+<body style="overflow:hidden" scroll="no">
+<div style="background-color:#BBBBBB5C;height:45px;box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.3);"><img src="logo.png" style="margin:0px;width:150px;height:46px"></img></div>
+<div style="text-align: center;color: white;margin-top: 350px;font-size: 60px;">十 度 科 技 工 作 室</div>
+  <a class="btn btn-medium btn-gray btn-radius" style="width:200px;display:block;margin:100px auto" href="https://jq.qq.com/?_wv=1027&k=5CLMJLPR">加入工作室</a>
+<p style="text-align: center;color: white;font-size: 5px;position:fixed;bottom:10px;width: 100%;">Copyright &copy; 2019-2022 LingduTech Studio AllRights Reserved</p>
 </body>
-</html>
