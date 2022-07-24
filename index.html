@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>十度工作室 - 良心制作</title>
+		<link rel="shortcut icon" href="img/favicon.ico">
+	</head>
+	<style>
+		body {
+			margin: 0;
+			background-color: #f4f4f5;
+		}
+		ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			width: 15vw;
+			background-color: #fff;
+			position: fixed;
+			left: 0;
+			top: 0;
+			height: 100%;
+			overflow: auto;
+		}
+		li a {
+			display: block;
+			color: #000;
+			padding: 8px 16px;
+			text-decoration: none;
+			font-size: 16px;
+		}
+		li a.active {
+			background-color: #81d8d0;
+			color: white;
+		}
+		li a:hover:not(.active) {
+			background-color: #81d8d0;
+			color: white;
+		}
+		.content {
+			
+		}
+		.content-card {
+			background: #fff;
+			position: relative;
+			top: 5vh;
+			left: 150px;
+			width: 1500px;
+			height: 500px;
+			margin: 0 auto;
+			border-radius: 30px;
+		}
+		.content-card-download {
+			background-color: #81d8d0;
+			border: none;
+			border-radius: 50px;
+			color: #fff;
+			width: 120px;
+			height: 50px;
+			position: relative;
+			left: 50px;
+			top: 150px;
+		}
+	</style>
+	<body>
+		<div class="nav">
+			<div class="nav-center">
+				<ul>
+					<li><a class="active" href="index.html">首页</a></li>
+					<li><a href="download.html">下载</a></li>
+					<li><a href="about.html">关于</a></li>
+					<li><a href="https://jq.qq.com/?_wv=1027&k=wwNBoTgZ">加入我们</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="content">
+			<div class="content-card">
+				<img src="img/ShiduCompact.png" style="width: 500px;height: 500px;text-align: right;border-radius: 30px;float: right;" />
+				<p style="font-size: 36px;position: relative;left: 50px;top: 50px;font-weight: bold;line-height: 50px;">ShiduCompact<br>等你来使用</p>
+				<p style="font-size: 20px;position: relative;left: 50px;top: 40px;">使用 Windows 10/11 API 透明地压缩游戏和程序。</p>
+				<p style="font-size: 16px;position: relative;left: 50px;top: 100px;color: #9195a1;line-height: 30px;">透明地压缩您的游戏和程序，减少它们使用的空间，而不会影响它们的功能。<br>直接与 Win32 API 一起工作，效率更高。</p>
+				<button class="content-card-download" onclick="window.location.href='download/ShiduCompact-1.0.0.exe'">下载</button>
+			</div>
+		</div>
+	</body>
+</html>
